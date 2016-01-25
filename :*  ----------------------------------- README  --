@@ -1,0 +1,12 @@
+/*  ----------------------------------- README  ----------------------------------- */
+
+Placer le dossier recrutement dans le répertoire htdocs de mamp (mac) ou dans le dossier www de wamp (pc)
+Les services wamp/mamp doivent être allumés.
+
+Votre adresse locale pour accéder au projet doit ressembler à ceci http://localhost:8888/recrutement/recrutement.html
+
+Enjoy! 
+
+PS: Malheuresement nous n'avons pas trouvé de solution pour poster une image sur un drive autre que le sien. (pour l'instant)
+
+LIEN DU REPO GITHUB : 

@@ -1,0 +1,9 @@
+$site-width: 60em; //960px
+$gutter: 20px;
+
+$mq-menu: 776px;
+$mq-article: 860px;
+
+@import 'base/_normalize';
+@import 'layout/_main';
+

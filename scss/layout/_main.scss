@@ -1,0 +1,105 @@
+* {
+  margin: 0; padding: 0; 
+}
+  
+body { 
+  background: url(../img/bg_content.png) no-repeat center center fixed; 
+  background-size: cover;
+  font-family: 'Muli', sans-serif;
+
+    .wrap{
+      padding-top: 5em;
+      margin: auto;
+      display: block;
+      width: 60%;
+      text-align: center;
+      font-family: 'Muli', sans-serif;
+      
+        h1{
+          font-family: 'Muli', sans-serif;
+          color: #034c51;
+        }
+
+        h2{
+          font-family: 'Muli', sans-serif;
+          color: #ffffff;
+          font-size: 1.3em;
+          margin-bottom: 1em;
+        }
+
+       .main{
+          margin-top: 2em;
+          width: 100%;
+          vertical-align: middle;
+          font-size: 1.2em;
+          text-align: center;
+
+            .inp{
+              width: 20em;
+              margin: auto;
+
+                .inpFile{
+                  position: relative;
+                  width: 20em;
+                  height: 3em;
+                  margin-bottom: 1em;
+
+                    #filepicker{
+                      width: 100%;
+                      padding: 14px 0;
+                      opacity: 0;
+                      z-index: 8;
+                      cursor: pointer;
+
+                    }
+
+                    .labelFile{
+                      top: 0;
+                      right: 0;
+                      z-index: -2;
+                      width: 76%;
+                      height: 2em;
+                      position: absolute;
+                      display: block;
+                      padding: 12px 45px;
+                      background: #034c51;
+                      color: #fff;
+                      font-size: 1em;
+                      transition: all .4s;
+                      cursor: pointer;
+
+                    }
+
+                }
+
+
+              #filePicker, #uploadButton, #authorizeButton{
+                width: 20em;
+                height: 3em;
+                margin-bottom: 0.8em;
+              }
+                  
+
+            }
+
+        }/* FIN main */
+
+    }/* FIN CONTENT */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
